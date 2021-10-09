@@ -1,0 +1,18 @@
+.spinner {
+  border-radius: 50%;
+}
+
+.spinner-sm {
+  height: 4rem;
+  width: 4rem;
+}
+
+.spinner-md {
+  height: 8rem;
+  width: 8rem;
+}
+
+.spinner-lg {
+  height: 14rem;
+  width: 14rem;
+}

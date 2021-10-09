@@ -1,13 +1,209 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.inline-space {
+  display: inline-block;
+  width: 0.2rem;
+}
+
+.mngr-badge {
+  background-color: rgb(255 101 0);
+  color: #fff;
+}
+
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+.trash-icon {
+  display: "inline-block" !important;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: "#ff4800" !important;
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.trash-icon:hover {
+  transform: scale(1.1);
+}
+
+select,
+input,
+textarea {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+.plus-cart-icon,
+.-cart-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.plus-cart-icon {
+  background-color: darkcyan;
+}
+
+.-cart-icon {
+  background-color: crimson;
+}
+
+.not-allowed:hover {
+  cursor: not-allowed;
+}
+
+input {
+  margin-top: 1rem !important;
+  box-shadow: none !important;
+}
+
+.register-error {
+  color: brown;
+}
+
+.auth-btn {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: rgba(0, 0, 0, 0.3) 0 -1.25px 0;
+
+  /** Button Style **/
+  display: -moz-inline-stack;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: auto;
+  zoom: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #13619f;
+  background: #2371b7;
+  padding: 11px 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0,
+    inset rgba(255, 255, 255, 0.3) 0 1px 0;
+  -moz-box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0,
+    inset rgba(255, 255, 255, 0.3) 0 1px 0;
+  box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0,
+    inset rgba(255, 255, 255, 0.3) 0 1px 0;
+  cursor: pointer;
+}
+
+.auth-btn:hover {
+  background: #4086c4;
+  border-color: #083559;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0 1px 0,
+    inset rgba(0, 0, 0, 0.25) 0 1px 4px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.2) 0 1px 0,
+    inset rgba(0, 0, 0, 0.25) 0 1px 4px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0 1px 0,
+    inset rgba(0, 0, 0, 0.25) 0 1px 4px;
+}
+.auth-link {
+  color: black;
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  text-decoration: wavy;
+}
+
+.btn {
+  box-shadow: none !important;
+}
+
+.shadow-lg {
+  border-radius: 0.25rem !important;
+  background-color: #fff !important;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.shadow-md {
+  background-color: #fff !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-sm {
+  border-radius: 0.2rem;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+.login,
+.register {
+  background: url("./assets/images/login.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.login-container,
+.register-container {
+  margin-top: 5rem !important;
+}
+
+/* Animations */
+
+.shake-btn {
+  transition: 0.3s ease-out;
+  background: linear-gradient();
+}
+
+.shake-btn:hover {
+  transform: scale(1.03);
+}
+
+.shake-badge {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.middle-item {
+  vertical-align: middle;
+}
+
+.checkout-btn {
+  background: rgb(0, 165, 194);
+  border: 1px solid #13619f;
+  color: #fff;
+  width: 76%;
 }

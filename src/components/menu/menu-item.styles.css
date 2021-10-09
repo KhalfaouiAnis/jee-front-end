@@ -1,0 +1,38 @@
+.main {
+  margin: 2rem;
+}
+
+.pizza-header {
+  cursor: pointer;
+}
+
+img {
+  height: 240px !important;
+  width: 240px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.flex-container {
+  display: flex !important;
+}
+
+.btn {
+  color: white !important;
+  background: linear-gradient(to left top, #ff4800, #ec0000) !important;
+}
+
+.modal-body {
+  position: relative;
+  height: auto;
+}
+
+.modal-description {
+  font-size: 0.9rem;
+}
+
+.pizza-container p {
+  color: rgb(25, 27, 27) !important;
+}

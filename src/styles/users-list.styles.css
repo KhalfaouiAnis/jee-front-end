@@ -1,0 +1,16 @@
+h2 span {
+  font-size: 18px !important;
+}
+
+.customers-header {
+  margin: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customers-header > a > .fa {
+  color: black;
+  cursor: pointer;
+  font-size: 2.3rem !important;
+  margin-right: 1rem;
+}

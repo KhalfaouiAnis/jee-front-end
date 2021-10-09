@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+}
+
+.restaurant-image-mngr {
+  height: 10rem;
+  width: 10rem;
+  margin-top: 2rem;
+  border-radius: 50%;
+}
+
+.restaurant-name-mngr {
+  color: #5899e2;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.restaurant-details-mngr {
+  margin-top: 1rem;
+  padding-left: 3rem;
+}
+
+.restaurant-details-mngr span {
+  font-size: 1rem;
+  color: #75716e;
+  text-align: right;
+}

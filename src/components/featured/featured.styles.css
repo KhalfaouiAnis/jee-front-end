@@ -1,0 +1,43 @@
+.featured-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  margin: 0.4rem;
+}
+
+.featured-title {
+  text-align: center;
+  padding: 1rem;
+}
+
+.featured-item {
+  margin-top: 0.4rem;
+}
+
+.featured-image {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin: 0.4rem;
+  margin-top: 2rem;
+}
+
+.featured-name {
+  color: #5899e2;
+}
+
+.featured-address {
+  font-size: 1rem;
+}
+
+.featured-details {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.featured-details span {
+  font-size: 1rem;
+  color: crimson;
+}

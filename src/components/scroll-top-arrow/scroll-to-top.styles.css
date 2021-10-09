@@ -1,0 +1,36 @@
+.scrollTop {
+  height: 3rem;
+  width: 3rem;
+  color: white !important;
+  background-color: rgba(255, 89, 0, 0.8);
+  border-radius: 50%;
+  position: fixed;
+  display: block;
+  bottom: 20px;
+  right: 30px;
+  transition: 0.3s all ease-in;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  justify-content: center;
+}
+
+.scroll-arrow {
+  padding: 12px 17px;
+}
+
+.scrollTop:hover {
+  background-color: rgb(255, 89, 0);
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,21 @@
+.orders-container {
+  margin: 0.8rem;
+  border-radius: 0.4rem;
+
+  background-color: rgb(228, 228, 228);
+  overflow: hidden;
+  background-image: url(https://spectrum.imgix.net/communities/8a470c6b-5498-49d5-adfc-41e13453c1a9/e167cda3-2081-40ef-9a54-1147f8a19571-Screenshot%25202018-12-17%2520at%252016.15.39.png?w=1280&h=384&dpr=2&q=100&expires=1627430400000&ixlib=js-1.3.0&s=aaa0c52…);
+  background-size: cover;
+  background-position: center center;
+}
+.orders-container:first-child {
+  margin-top: 1.2rem !important;
+}
+
+.topic {
+  color: white !important;
+}
+
+table > tbody > tr > td:last-child {
+  text-align: left !important;
+}

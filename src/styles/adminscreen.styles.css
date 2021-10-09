@@ -1,0 +1,77 @@
+.admin-features {
+  padding: 1rem;
+  background-color: rgb(1, 1, 77);
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .admin-features li {
+  list-style-type: none;
+  display: inline;
+  color: #fff;
+} */
+
+.admin-features .admin-nav-item {
+  color: #fff;
+  padding-right: 3rem;
+}
+
+td,
+th,
+tr {
+  text-align: left;
+}
+
+.edit-pizza-header {
+  display: flex;
+}
+
+.go-back-icon {
+  display: flex;
+  height: 2rem !important;
+  width: 2rem !important;
+  background: linear-gradient(to left top, #ff4800, #ec0000) !important;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.1rem !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-piza-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.4;
+}
+
+table > tbody > tr > td:last-child {
+  text-align: center;
+}
+
+.admin-btn {
+  background: linear-gradient(to left top, rgb(1, 1, 77), rgb(1, 1, 77));
+  color: #fff;
+}
+
+.fa-lg {
+  cursor: pointer;
+}
+
+.custom-nav-link {
+  color: white !important;
+  background-color: #141d53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  transition: all ease-in 0.3s;
+}
+
+.custom-nav-link:hover {
+  color: white !important;
+  background-color: #343f7a;
+  text-decoration: none;
+  transform: scale(1.1, 1.1);
+}

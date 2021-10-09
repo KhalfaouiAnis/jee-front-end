@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+}
+
+.restaurant-header {
+  margin-left: 3rem;
+}
+
+.restaurant-image {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  margin: 1rem;
+  margin-top: 2rem;
+}
+
+.restaurant-name {
+  color: #5899e2;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.restaurant-details {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.restaurant-details span {
+  font-size: 1rem;
+  color: #75716e;
+  text-align: right;
+}
+
+.goback-link {
+  font-size: 2rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  vertical-align: top;
+  margin: 1rem;
+}
